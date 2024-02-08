@@ -22,12 +22,12 @@ const perguntas = [
     {
         pergunta: "O que é um mapa de risco?",
         resposta: ["Um mapa para localização de acidentes", "Um documento que identifica os riscos existentes nos ambientes de trabalho", "Um guia turístico para funcionários"],
-        correta: 2
+        correta: 1
     },
     {
         pergunta: "Qual é a importância de uma análise ergonômica do trabalho?",
         resposta: ["Melhorar o ambiente de trabalho esteticamente", "Prevenir lesões e doenças ocupacionais", "Aumentar a carga de trabalho dos funcionários"],
-        correta: 2
+        correta: 1
     },
     {
         pergunta: "O que é DDS (Diálogo Diário de Segurança)?",
@@ -42,12 +42,12 @@ const perguntas = [
     {
         pergunta: "O que é um acidente de trabalho?",
         resposta: ["Um evento desastroso planejado pela empresa", "Qualquer lesão corporal sofrida pelo empregado no exercício de suas funções", "Um evento que não gera consequências para o trabalhador"],
-        correta: 2
+        correta: 1
     },
     {
         pergunta: "O que é uma SIPAT (Semana Interna de Prevenção de Acidentes de Trabalho)?",
         resposta: ["Um tipo de treinamento para chefes de departamento", "Um evento organizado anualmente pelas empresas para promover a conscientização e prevenção de acidentes de trabalho", "Um programa de descontos em equipamentos de segurança"],
-        correta: 2
+        correta: 1
     }
 ];
 
