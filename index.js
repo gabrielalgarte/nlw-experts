@@ -1,93 +1,93 @@
-const perguntas = [
+const perguntasSegurancaTrabalho = [
     {
-        pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
+        pergunta: "O que é um EPI (Equipamento de Proteção Individual)?",
         resposta: [
-            "var myVar;",
-            "let myVar;",
-            "const myVar;"
+            "Um procedimento de segurança",
+            "Um documento obrigatório",
+            "Um equipamento utilizado pelo trabalhador para minimizar os riscos à sua saúde e segurança"
         ],
         correta: 2
     },
     {
-        pergunta: "Qual dos seguintes é um tipo de dados primitivo em JavaScript?",
+        pergunta: "O que é um DDS (Diálogo Diário de Segurança)?",
         resposta: [
-            "Array",
-            "Object",
-            "String"
+            "Um tipo de documento fiscal",
+            "Um método de comunicação interna",
+            "Uma reunião onde são discutidas questões de segurança antes do início das atividades"
         ],
         correta: 2
     },
     {
-        pergunta: "O que o operador '===' faz em JavaScript?",
+        pergunta: "Qual a principal função do SESMT (Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho)?",
         resposta: [
-            "Compara valores",
-            "Compara valores e tipos",
-            "Atribui um valor"
+            "Organizar festas e eventos para os funcionários",
+            "Realizar exames médicos anuais",
+            "Promover a saúde e segurança no trabalho através de ações preventivas"
         ],
-        correta: 1
+        correta: 2
     },
     {
-        pergunta: "Como você converte uma string para um número em JavaScript?",
+        pergunta: "O que é um PPRA (Programa de Prevenção de Riscos Ambientais)?",
         resposta: [
-            "parseString()",
-            "Number()",
-            "toInt()"
+            "Um plano para promoção de eventos na empresa",
+            "Um documento contábil",
+            "Um programa obrigatório que visa à preservação da saúde e integridade dos trabalhadores"
         ],
-        correta: 1
+        correta: 2
     },
     {
-        pergunta: "Qual é o resultado de 10 + '10' em JavaScript?",
+        pergunta: "O que é um CIPA (Comissão Interna de Prevenção de Acidentes)?",
         resposta: [
-            "20",
-            "1010",
-            "Erro"
+            "Uma comissão para promoção de produtos internos",
+            "Uma equipe de limpeza",
+            "Uma comissão formada por funcionários que visa prevenir acidentes e doenças decorrentes do trabalho"
         ],
-        correta: 1
+        correta: 2
     },
     {
-        pergunta: "O que o método 'forEach' faz em um array em JavaScript?",
+        pergunta: "O que é um PCMSO (Programa de Controle Médico de Saúde Ocupacional)?",
         resposta: [
-            "Itera sobre os elementos do array",
-            "Remove o último elemento do array",
-            "Adiciona um elemento ao array"
+            "Um programa de computador para controle de vendas",
+            "Um tipo de seguro para funcionários",
+            "Um programa obrigatório que visa promover e preservar a saúde dos trabalhadores"
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Qual é o objetivo da Norma Regulamentadora NR-10?",
+        resposta: [
+            "Estabelecer regras para o transporte de produtos perigosos",
+            "Regularizar a venda de produtos químicos",
+            "Estabelecer os requisitos e condições mínimas para garantir a segurança dos trabalhadores que atuam em instalações elétricas"
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "O que é um APR (Análise Preliminar de Riscos)?",
+        resposta: [
+            "Um tipo de documento fiscal",
+            "Uma análise financeira",
+            "Uma análise que identifica e avalia os riscos envolvidos em determinada atividade ou operação"
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "O que é um EPC (Equipamento de Proteção Coletiva)?",
+        resposta: [
+            "Um equipamento de uso individual",
+            "Um documento contábil",
+            "Um equipamento destinado à proteção de um grupo de trabalhadores ou do ambiente de trabalho"
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "O que significa a sigla SIPAT?",
+        resposta: [
+            "Semana Interna de Prevenção de Acidentes do Trabalho",
+            "Sistema Integrado de Prevenção de Acidentes Técnicos",
+            "Sindicato de Prevenção de Acidentes no Trabalho"
         ],
         correta: 0
-    },
-    {
-        pergunta: "Qual é o operador de igualdade que não leva em consideração o tipo de dado em JavaScript?",
-        resposta: [
-            "==",
-            "===",
-            "!="
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é o resultado de typeof null em JavaScript?",
-        resposta: [
-            "Object",
-            "Null",
-            "Undefined"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é a palavra-chave usada para declarar uma função em JavaScript?",
-        resposta: [
-            "function",
-            "def",
-            "var"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é a saída do código: console.log(typeof typeof 1); em JavaScript?",
-        resposta: [
-            "number",
-            "string",
-            "undefined"
-        ],
-        correta: 1
     }
 ];
 
