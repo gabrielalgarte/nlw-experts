@@ -17,7 +17,7 @@ const perguntas = [
     {
         pergunta: "Qual é a função da CIPA (Comissão Interna de Prevenção de Acidentes)?",
         resposta: ["Fiscalizar o trabalho dos funcionários", "Elaborar planos de demissão voluntária", "Promover a segurança e saúde no trabalho"],
-        correta: 3
+        correta: 2
     },
     {
         pergunta: "O que é um mapa de risco?",
@@ -32,12 +32,12 @@ const perguntas = [
     {
         pergunta: "O que é DDS (Diálogo Diário de Segurança)?",
         resposta: ["Uma ferramenta para debates políticos no ambiente de trabalho", "Uma forma de entretenimento para os funcionários", "Uma prática para discutir temas relacionados à segurança do trabalho antes do início das atividades"],
-        correta: 3
+        correta: 2
     },
     {
         pergunta: "Quais são os tipos de riscos ocupacionais?",
         resposta: ["Riscos genéricos e específicos", "Riscos naturais e artificiais", "Riscos físicos, químicos, biológicos, ergonômicos e de acidentes"],
-        correta: 3
+        correta: 2
     },
     {
         pergunta: "O que é um acidente de trabalho?",
