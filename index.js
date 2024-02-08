@@ -1,93 +1,53 @@
-const perguntasSegurancaTrabalho = [
+const perguntas = [
+    {
+        pergunta: "Quais são os principais objetivos da segurança do trabalho?",
+        resposta: ["Aumentar os lucros da empresa", "Proteger a integridade física e mental dos trabalhadores", "Aumentar a produtividade a qualquer custo"],
+        correta: 1
+    },
     {
         pergunta: "O que é um EPI (Equipamento de Proteção Individual)?",
-        resposta: [
-            "Um procedimento de segurança",
-            "Um documento obrigatório",
-            "Um equipamento utilizado pelo trabalhador para minimizar os riscos à sua saúde e segurança"
-        ],
+        resposta: ["Um equipamento de proteção coletiva", "Um documento obrigatório para os trabalhadores", "Um equipamento destinado a proteger a saúde e a integridade física do trabalhador"],
         correta: 2
     },
     {
-        pergunta: "O que é um DDS (Diálogo Diário de Segurança)?",
-        resposta: [
-            "Um tipo de documento fiscal",
-            "Um método de comunicação interna",
-            "Uma reunião onde são discutidas questões de segurança antes do início das atividades"
-        ],
+        pergunta: "O que significa a sigla NR?",
+        resposta: ["Normas Reunidas", "Normas Regulamentadoras", "Normas de Resgate"],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é a função da CIPA (Comissão Interna de Prevenção de Acidentes)?",
+        resposta: ["Fiscalizar o trabalho dos funcionários", "Elaborar planos de demissão voluntária", "Promover a segurança e saúde no trabalho"],
+        correta: 3
+    },
+    {
+        pergunta: "O que é um mapa de risco?",
+        resposta: ["Um mapa para localização de acidentes", "Um documento que identifica os riscos existentes nos ambientes de trabalho", "Um guia turístico para funcionários"],
         correta: 2
     },
     {
-        pergunta: "Qual a principal função do SESMT (Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho)?",
-        resposta: [
-            "Organizar festas e eventos para os funcionários",
-            "Realizar exames médicos anuais",
-            "Promover a saúde e segurança no trabalho através de ações preventivas"
-        ],
+        pergunta: "Qual é a importância de uma análise ergonômica do trabalho?",
+        resposta: ["Melhorar o ambiente de trabalho esteticamente", "Prevenir lesões e doenças ocupacionais", "Aumentar a carga de trabalho dos funcionários"],
         correta: 2
     },
     {
-        pergunta: "O que é um PPRA (Programa de Prevenção de Riscos Ambientais)?",
-        resposta: [
-            "Um plano para promoção de eventos na empresa",
-            "Um documento contábil",
-            "Um programa obrigatório que visa à preservação da saúde e integridade dos trabalhadores"
-        ],
+        pergunta: "O que é DDS (Diálogo Diário de Segurança)?",
+        resposta: ["Uma ferramenta para debates políticos no ambiente de trabalho", "Uma forma de entretenimento para os funcionários", "Uma prática para discutir temas relacionados à segurança do trabalho antes do início das atividades"],
+        correta: 3
+    },
+    {
+        pergunta: "Quais são os tipos de riscos ocupacionais?",
+        resposta: ["Riscos genéricos e específicos", "Riscos naturais e artificiais", "Riscos físicos, químicos, biológicos, ergonômicos e de acidentes"],
+        correta: 3
+    },
+    {
+        pergunta: "O que é um acidente de trabalho?",
+        resposta: ["Um evento desastroso planejado pela empresa", "Qualquer lesão corporal sofrida pelo empregado no exercício de suas funções", "Um evento que não gera consequências para o trabalhador"],
         correta: 2
     },
     {
-        pergunta: "O que é um CIPA (Comissão Interna de Prevenção de Acidentes)?",
-        resposta: [
-            "Uma comissão para promoção de produtos internos",
-            "Uma equipe de limpeza",
-            "Uma comissão formada por funcionários que visa prevenir acidentes e doenças decorrentes do trabalho"
-        ],
+        pergunta: "O que é uma SIPAT (Semana Interna de Prevenção de Acidentes de Trabalho)?",
+        resposta: ["Um tipo de treinamento para chefes de departamento", "Um evento organizado anualmente pelas empresas para promover a conscientização e prevenção de acidentes de trabalho", "Um programa de descontos em equipamentos de segurança"],
         correta: 2
-    },
-    {
-        pergunta: "O que é um PCMSO (Programa de Controle Médico de Saúde Ocupacional)?",
-        resposta: [
-            "Um programa de computador para controle de vendas",
-            "Um tipo de seguro para funcionários",
-            "Um programa obrigatório que visa promover e preservar a saúde dos trabalhadores"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual é o objetivo da Norma Regulamentadora NR-10?",
-        resposta: [
-            "Estabelecer regras para o transporte de produtos perigosos",
-            "Regularizar a venda de produtos químicos",
-            "Estabelecer os requisitos e condições mínimas para garantir a segurança dos trabalhadores que atuam em instalações elétricas"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "O que é um APR (Análise Preliminar de Riscos)?",
-        resposta: [
-            "Um tipo de documento fiscal",
-            "Uma análise financeira",
-            "Uma análise que identifica e avalia os riscos envolvidos em determinada atividade ou operação"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "O que é um EPC (Equipamento de Proteção Coletiva)?",
-        resposta: [
-            "Um equipamento de uso individual",
-            "Um documento contábil",
-            "Um equipamento destinado à proteção de um grupo de trabalhadores ou do ambiente de trabalho"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "O que significa a sigla SIPAT?",
-        resposta: [
-            "Semana Interna de Prevenção de Acidentes do Trabalho",
-            "Sistema Integrado de Prevenção de Acidentes Técnicos",
-            "Sindicato de Prevenção de Acidentes no Trabalho"
-        ],
-        correta: 0
     }
 ];
 
